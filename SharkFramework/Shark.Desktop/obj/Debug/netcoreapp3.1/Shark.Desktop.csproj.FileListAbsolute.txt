@@ -1,0 +1,8 @@
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.deps.json
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.pdb
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.AssemblyInfoInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.AssemblyInfo.cs
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.pdb

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\SharkFramework.csproj",
-      "projectName": "SharkFramework",
-      "projectPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\SharkFramework.csproj",
+      "projectUniqueName": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\Shark.Core.csproj",
+      "projectName": "Shark.Core",
+      "projectPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\Shark.Core.csproj",
       "packagesPath": "C:\\Users\\kreeher\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\obj\\",
       "projectStyle": "PackageReference",

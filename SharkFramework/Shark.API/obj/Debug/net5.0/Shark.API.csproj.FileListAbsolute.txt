@@ -1,0 +1,12 @@
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\bin\Debug\net5.0\Shark.API.deps.json
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\bin\Debug\net5.0\Shark.API.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\bin\Debug\net5.0\ref\Shark.API.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\bin\Debug\net5.0\Shark.API.pdb
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.AssemblyInfoInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.AssemblyInfo.cs
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.csproj.CoreCompileInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\ref\Shark.API.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.pdb
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.API\obj\Debug\net5.0\Shark.API.csprojAssemblyReference.cache

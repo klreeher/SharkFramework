@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8igAHKVJka9Tlyy6RcSpPTsSmv8xLDce2+Qg/QsNM5VXrVSX7XF2MpVc41S0AkNaQIQj5gkMOJ1WSTsPFQr0A==",
+  "dgSpecHash": "3ciBq15XHRDStoBSUJsF3KqIeGE82+n4C/TvRNn4XrOPIpuuZcnjBolq7Q0c67eTTVvfvCHzSdRndbrPSlYrRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\SharkFramework.csproj",
+  "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\SharkFramework\\Shark.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

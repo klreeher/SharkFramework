@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vVmC1Zxi6uLZRTNbNkXN0d5zpR3LSN8FiUCr0+MHQYbdVNMTtulYZ+NO9HT85otoCZ5EGRLXAPcZJC3Chij5PA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Desktop\\Shark.Desktop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

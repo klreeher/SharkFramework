@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="FindStrategies\" />
+    <Folder Include="Components\" />
+    <Folder Include="Services\" />
+    <Folder Include="Validations\" />
+    <Folder Include="WaitStrategies\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.0-beta2" />
+
+  </ItemGroup>
+
+</Project>

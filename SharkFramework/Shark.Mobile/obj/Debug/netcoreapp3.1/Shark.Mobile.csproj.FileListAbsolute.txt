@@ -1,0 +1,9 @@
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.deps.json
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.pdb
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.csprojAssemblyReference.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.AssemblyInfoInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.AssemblyInfo.cs
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.dll
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.pdb
