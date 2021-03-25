@@ -11,6 +11,6 @@ namespace Shark.Web.Infrastructure
         Chrome,
         Edge,
         Firefox,
-        Safari
+        Safari,
     }
 }

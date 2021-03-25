@@ -8,18 +8,32 @@
     ".NETCoreApp,Version=v5.0": {
       "Rocket.SystemTests/1.0.0": {
         "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
           "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.WebDriver.ChromeDriver": "89.0.4389.2300",
           "Selenium.WebDriver.MicrosoftDriver": "17.17134.0",
-          "Shark.Web": "1.0.0"
+          "Shark.Web": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118"
         },
         "runtime": {
           "Rocket.SystemTests.dll": {}
         }
       },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-beta2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.2": {},
       "Microsoft.CodeCoverage/16.5.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -384,6 +398,7 @@
       },
       "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {},
       "Selenium.WebDriver.MicrosoftDriver/17.17134.0": {},
+      "StyleCop.Analyzers/1.1.118": {},
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -739,6 +754,8 @@
       },
       "Shark.Web/1.0.0": {
         "dependencies": {
+          "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "NUnit": "3.12.0",
           "Selenium.WebDriver": "4.0.0-beta2"
         },
         "runtime": {
@@ -752,6 +769,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7xt6zTlIEizUgEsYAIgm37EbdkiMmr6fP6J9pDoKEpiGM4pi32BCPGr/IczmSJI9Zzp0a6HOzpr9OvpMP+2veA==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.2",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.5.0": {
       "type": "package",
@@ -885,6 +916,13 @@
       "sha512": "sha512-22tIqQPNbFqWx32YO9XNKvWOcBu3Y98a+qb98xo3k37TkV/qPz7AbohsfaHBtizQtAqbQ5GHNM7re30uvF+amw==",
       "path": "selenium.webdriver.microsoftdriver/17.17134.0",
       "hashPath": "selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "path": "stylecop.analyzers/1.1.118",
+      "hashPath": "stylecop.analyzers.1.1.118.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

@@ -14,10 +14,6 @@ namespace Shark.Web.Infrastructure
 {
     public class DriverService
     {
-        // initialize driver instance
-        
-        // disposal class
-
         public static ThreadLocal<IWebDriver> WrappedDriver { get; set; }
 
         static DriverService()
@@ -50,7 +46,9 @@ namespace Shark.Web.Infrastructure
                     driver = new SafariDriver();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException(nameof(browserType), browserType,
+                    throw new ArgumentOutOfRangeException(
+                        nameof(browserType),
+                        browserType,
                         $"{nameof(browserType)} Not Supported");
             }
 

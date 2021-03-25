@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wxQpN6V7tp4yeD7bpOrU9E3EZrzq2lY0tWgQuYXpwd04eTy4T5spJgPyOAvJPVPEh6fc/Cr8pCc6p5tuMASIyg==",
+  "dgSpecHash": "lPfcbAk9WxlPJr+Nir0H4s/Rjarspla6IywvM/mbqKfMIdcqlpwEVVkxmOy8hbg2T3tsZ28tHyPElsDJoQTAhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Rocket.SystemTests\\Rocket.SystemTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kreeher\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
@@ -23,6 +25,7 @@
     "C:\\Users\\kreeher\\.nuget\\packages\\selenium.webdriver\\4.0.0-beta2\\selenium.webdriver.4.0.0-beta2.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\selenium.webdriver.chromedriver\\89.0.4389.2300\\selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\selenium.webdriver.microsoftdriver\\17.17134.0\\selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",

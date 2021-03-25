@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OivCXjWW+gMGL0bKP34IkR5RRlShzC/Xf3Ji3rb38Ooi50uxyJu5qoe5/qL2pEcbcjYVBNjgWJXxyP7dqI7eog==",
+  "dgSpecHash": "SXNPCnngGu4/hvQF9zmQ/nCzTEnui4f3++ysLZSgTJ3OURCXzUqodtJ/q77piMWhi0fKFofRfDgF27mWu3pj5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.API\\Shark.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

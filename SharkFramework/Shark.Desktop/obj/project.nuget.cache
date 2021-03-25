@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vVmC1Zxi6uLZRTNbNkXN0d5zpR3LSN8FiUCr0+MHQYbdVNMTtulYZ+NO9HT85otoCZ5EGRLXAPcZJC3Chij5PA==",
+  "dgSpecHash": "Z8J7kngqbmF/onP/HxwWA2yDBEdA/iyvvWI8yLZwlbbwMshNPrqiLoHejGTJHnkabwsncKwgB4+uck6vIfd8uw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Desktop\\Shark.Desktop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\kreeher\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"

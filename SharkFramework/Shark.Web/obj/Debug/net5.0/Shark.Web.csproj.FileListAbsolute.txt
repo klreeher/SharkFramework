@@ -9,3 +9,4 @@ C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\ref\Shark.Web.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.pdb
+C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.csprojAssemblyReference.cache

@@ -100,3 +100,4 @@ C:\Users\kreeher\Repos\shark\SharkFramework\Rocket.SystemTests\obj\Debug\net5.0\
 C:\Users\kreeher\Repos\shark\SharkFramework\Rocket.SystemTests\obj\Debug\net5.0\ref\Rocket.SystemTests.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Rocket.SystemTests\obj\Debug\net5.0\Rocket.SystemTests.pdb
 C:\Users\kreeher\Repos\shark\SharkFramework\Rocket.SystemTests\obj\Debug\net5.0\Rocket.SystemTests.genruntimeconfig.cache
+C:\Users\kreeher\Repos\shark\SharkFramework\Rocket.SystemTests\bin\Debug\net5.0\SeleniumExtras.WaitHelpers.dll
