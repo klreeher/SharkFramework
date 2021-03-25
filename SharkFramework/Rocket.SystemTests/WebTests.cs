@@ -80,7 +80,7 @@ namespace Rocket.SystemTests
         public void CanGetCorrectSiteUrlSettingFromJsonFile()
         {
             var siteUrls = Configuration.GetSiteSettings();
-            Assert.AreEqual(baseURL, siteUrls.DemoSite);
+            Assert.AreEqual(this.baseURL, siteUrls.DemoSite);
             Assert.AreEqual("https://google.com/", siteUrls.GoogleSite);
         }
     }
