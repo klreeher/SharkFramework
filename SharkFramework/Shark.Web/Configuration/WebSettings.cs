@@ -8,6 +8,5 @@ namespace Shark.Web
 {
     public class WebSettings
     {
-        public string BaseSiteUrl { get; set; }
     }
 }

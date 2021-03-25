@@ -1,8 +1,11 @@
 {
   "webSettings": {
-    "baseSiteUrl": "http://demos.bellatrix.solutions/"
   },
   "timeoutSettings": {
     "waitForElementTimeout": "10"
-  }
+  },
+  "siteSettings": {
+    "DemoSite": "http://demos.bellatrix.solutions/",
+    "GoogleSite":  "https://google.com/" 
+  } 
 }

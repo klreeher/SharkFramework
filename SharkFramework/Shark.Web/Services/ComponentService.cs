@@ -1,12 +1,13 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using Shark.Configuration;
+using Shark.Web.Components;
+using Shark.Web.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using Shark.Web.Components;
-using Shark.Web.Infrastructure;
 using DriverService = Shark.Web.Infrastructure.DriverService;
 
 namespace Shark.Web.Services
@@ -43,9 +44,10 @@ namespace Shark.Web.Services
             return newComponent;
         }
 
-        private IWebElement WaitUntilElementExists(IWebDriver driver, By elementLocator, int timeout = 10)
+        private IWebElement WaitUntilElementExists(IWebDriver driver, By elementLocator)
         {
-            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeout));
+            int elementTimeout = ConfigurationService.Instance.GetTimeoutSettings().WaitForElementTimeout;
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(elementTimeout));
             IWebElement nativeWebElement = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(elementLocator));
             return nativeWebElement;
         }

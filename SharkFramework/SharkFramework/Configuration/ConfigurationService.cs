@@ -1,10 +1,7 @@
-﻿using System.IO;
-using System.Linq;
-using System.Threading;
-using Microsoft.Extensions.Configuration;
-
-namespace Shark.Configuration
+﻿namespace Shark.Configuration
 {
+    using Microsoft.Extensions.Configuration;
+
     public sealed class ConfigurationService
     {
         private static ConfigurationService _instance;

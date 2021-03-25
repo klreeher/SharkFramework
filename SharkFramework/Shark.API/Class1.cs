@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Shark.API
+﻿namespace Shark.API
 {
     public class Class1
     {

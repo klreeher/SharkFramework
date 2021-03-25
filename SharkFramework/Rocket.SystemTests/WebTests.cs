@@ -1,8 +1,8 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
+using Rocket.SystemTests.Configuration;
 using Shark.Web;
 using Shark.Web.Components;
-using Shark.Web.Services;
 
 namespace Rocket.SystemTests
 {
@@ -67,6 +67,21 @@ namespace Rocket.SystemTests
 
             string expectedHref = "http://demos.bellatrix.solutions/product/proton-rocket/";
             Assert.AreEqual(expectedHref, protonRocket.Href);
+        }
+
+        [Test]
+        public void CanGetCorrectTimeoutSettingFromJsonFile()
+        {
+            var timeoutSetting = Configuration.GetTimeoutSettings();
+            Assert.AreEqual(10, timeoutSetting.WaitForElementTimeout);
+        }
+
+        [Test]
+        public void CanGetCorrectSiteUrlSettingFromJsonFile()
+        {
+            var siteUrls = Configuration.GetSiteSettings();
+            Assert.AreEqual(baseURL, siteUrls.DemoSite);
+            Assert.AreEqual("https://google.com/", siteUrls.GoogleSite);
         }
     }
 }

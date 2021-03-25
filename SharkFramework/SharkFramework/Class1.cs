@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SharkFramework
+﻿namespace SharkFramework
 {
     public class Class1
     {

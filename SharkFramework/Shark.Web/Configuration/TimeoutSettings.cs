@@ -8,6 +8,6 @@ namespace Shark.Web
 {
     public class TimeoutSettings
     {
-        public int WaitForElementTimeout { get; set; }
+        public int WaitForElementTimeout { get; init; }
     }
 }

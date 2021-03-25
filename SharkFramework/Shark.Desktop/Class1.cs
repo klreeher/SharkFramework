@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Shark.Desktop
+﻿namespace Shark.Desktop
 {
     public class Class1
     {
