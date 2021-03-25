@@ -30,10 +30,9 @@
 		<None Update="Config/FrameworkSettings.$(Configuration).json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Config\" />
+		<None Update="FrameworkSettings.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>

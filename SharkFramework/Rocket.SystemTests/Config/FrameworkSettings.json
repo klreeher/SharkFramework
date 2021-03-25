@@ -1,8 +1,0 @@
-{
-  "webSettings": {
-  "baseSiteUrl": "http://demos.bellatrix.solutions/"
-  },
-  "timeoutSettings": {
-    "waitForElementTimeout":  "10" 
-  } 
-}

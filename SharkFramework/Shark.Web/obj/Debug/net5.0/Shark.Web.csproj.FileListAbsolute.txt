@@ -10,3 +10,15 @@ C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\ref\Shark.Web.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.pdb
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.csprojAssemblyReference.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\bin\Debug\net5.0\Shark.Web.deps.json
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\bin\Debug\net5.0\Shark.Web.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\bin\Debug\net5.0\ref\Shark.Web.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\bin\Debug\net5.0\Shark.Web.pdb
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.csprojAssemblyReference.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.AssemblyInfoInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.AssemblyInfo.cs
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.csproj.CoreCompileInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\ref\Shark.Web.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Web\obj\Debug\net5.0\Shark.Web.pdb

@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y1JJ47HSGYxX6SCL3wjqS+eFHvB3LalrdasFcnL7/Sea4twswAqslLV1Okh2tsQ7Bm35lwWReEu9tn4KpRHrHA==",
+  "dgSpecHash": "y8SpPrkMAgRWJY7HPpQBHng7QOWd5IXvnL1PRt8VkdQWACSOMwzpNygqtzgKCFHcdG/kFj6v2PyeHrzHRcm1cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Mobile\\Shark.Mobile.csproj",
+  "projectFilePath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Mobile\\Shark.Mobile.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
-    "C:\\Users\\kreeher\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
-    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\kreeher\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\angel\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
 }

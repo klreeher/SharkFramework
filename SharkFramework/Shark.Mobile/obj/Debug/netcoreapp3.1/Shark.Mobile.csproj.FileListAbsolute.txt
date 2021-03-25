@@ -7,3 +7,13 @@ C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.csproj.CoreCompileInputs.cache
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.pdb
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.deps.json
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\bin\Debug\netcoreapp3.1\Shark.Mobile.pdb
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.csprojAssemblyReference.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.AssemblyInfoInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.AssemblyInfo.cs
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.csproj.CoreCompileInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Mobile\obj\Debug\netcoreapp3.1\Shark.Mobile.pdb

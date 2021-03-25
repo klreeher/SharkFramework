@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.DevTools.V85.DOM;
+using Shark.Configuration;
 using Shark.Web.Infrastructure;
 
 namespace Shark.Web.Services
@@ -12,6 +13,7 @@ namespace Shark.Web.Services
     {
         public void Back()
         {
+            ////int elementTimeout = ConfigurationService.Instance.GetTimeoutSettings().WaitForElementTimeout;
             DriverService.WrappedDriver.Value.Navigate().Back();
         }
 

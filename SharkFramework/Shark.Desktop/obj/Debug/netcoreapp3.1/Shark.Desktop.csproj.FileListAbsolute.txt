@@ -6,3 +6,13 @@ C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.csproj.CoreCompileInputs.cache
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.dll
 C:\Users\kreeher\Repos\shark\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.pdb
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.deps.json
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\bin\Debug\netcoreapp3.1\Shark.Desktop.pdb
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.csprojAssemblyReference.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.AssemblyInfoInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.AssemblyInfo.cs
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.csproj.CoreCompileInputs.cache
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.dll
+D:\SourceCode\SharkFramework\SharkFramework\Shark.Desktop\obj\Debug\netcoreapp3.1\Shark.Desktop.pdb

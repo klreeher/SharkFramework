@@ -230,6 +230,21 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
+      },
+      "Shark.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.2.21154.6",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0-preview.2.21154.6",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0-preview.2.21154.6"
+        },
+        "compile": {
+          "bin/placeholder/Shark.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shark.Core.dll": {}
+        }
       }
     }
   },
@@ -848,6 +863,11 @@
         "system.text.json.6.0.0-preview.2.21154.6.nupkg.sha512",
         "system.text.json.nuspec"
       ]
+    },
+    "Shark.Core/1.0.0": {
+      "type": "project",
+      "path": "../SharkFramework/Shark.Core.csproj",
+      "msbuildProject": "../SharkFramework/Shark.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -859,27 +879,31 @@
       "Microsoft.Extensions.Configuration.Json >= 6.0.0-preview.2.21154.6",
       "NUnit >= 3.12.0",
       "Selenium.WebDriver >= 4.0.0-beta2",
+      "Shark.Core >= 1.0.0",
       "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kreeher\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Web\\Shark.Web.csproj",
+      "projectUniqueName": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Web\\Shark.Web.csproj",
       "projectName": "Shark.Web",
-      "projectPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Web\\Shark.Web.csproj",
-      "packagesPath": "C:\\Users\\kreeher\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Web\\obj\\",
+      "projectPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Web\\Shark.Web.csproj",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "outputPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kreeher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -893,7 +917,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\SourceCode\\SharkFramework\\SharkFramework\\SharkFramework\\Shark.Core.csproj": {
+              "projectPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\SharkFramework\\Shark.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -961,7 +989,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

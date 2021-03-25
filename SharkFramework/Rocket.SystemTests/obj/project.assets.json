@@ -1212,6 +1212,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "Shark.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.2.21154.6",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0-preview.2.21154.6",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0-preview.2.21154.6"
+        },
+        "compile": {
+          "bin/placeholder/Shark.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shark.Core.dll": {}
+        }
+      },
       "Shark.Web/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1221,7 +1236,8 @@
           "Microsoft.Extensions.Configuration.Binder": "6.0.0-preview.2.21154.6",
           "Microsoft.Extensions.Configuration.Json": "6.0.0-preview.2.21154.6",
           "NUnit": "3.12.0",
-          "Selenium.WebDriver": "4.0.0-beta2"
+          "Selenium.WebDriver": "4.0.0-beta2",
+          "Shark.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Shark.Web.dll": {}
@@ -4492,6 +4508,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "Shark.Core/1.0.0": {
+      "type": "project",
+      "path": "../SharkFramework/Shark.Core.csproj",
+      "msbuildProject": "../SharkFramework/Shark.Core.csproj"
+    },
     "Shark.Web/1.0.0": {
       "type": "project",
       "path": "../Shark.Web/Shark.Web.csproj",
@@ -4512,23 +4533,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kreeher\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Rocket.SystemTests\\Rocket.SystemTests.csproj",
+      "projectUniqueName": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Rocket.SystemTests\\Rocket.SystemTests.csproj",
       "projectName": "Rocket.SystemTests",
-      "projectPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Rocket.SystemTests\\Rocket.SystemTests.csproj",
-      "packagesPath": "C:\\Users\\kreeher\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Rocket.SystemTests\\obj\\",
+      "projectPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Rocket.SystemTests\\Rocket.SystemTests.csproj",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "outputPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Rocket.SystemTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kreeher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -4543,8 +4567,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Web\\Shark.Web.csproj": {
-              "projectPath": "C:\\Users\\kreeher\\Repos\\shark\\SharkFramework\\Shark.Web\\Shark.Web.csproj"
+            "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Web\\Shark.Web.csproj": {
+              "projectPath": "D:\\SourceCode\\SharkFramework\\SharkFramework\\Shark.Web\\Shark.Web.csproj"
             }
           }
         }
@@ -4611,7 +4635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

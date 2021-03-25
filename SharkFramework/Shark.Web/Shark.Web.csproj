@@ -40,4 +40,8 @@
 		</PackageReference>
 
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SharkFramework\Shark.Core.csproj" />
+	</ItemGroup>
 </Project>
