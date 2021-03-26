@@ -1,8 +1,7 @@
 ﻿namespace Rocket.SystemTests.Helpers
 {
-    class SiteUtilities
-    {
-
+    internal class SiteUtilities
+    { 
         /* 
            public string RelativeUrlToSiteRoot(siteName, string relat)
            {

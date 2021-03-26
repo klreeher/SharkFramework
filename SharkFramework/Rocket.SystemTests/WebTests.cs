@@ -1,29 +1,29 @@
-using NUnit.Framework;
-using OpenQA.Selenium;
-using Rocket.SystemTests.Configuration;
-using Shark.Web;
-using Shark.Web.Components;
-
 namespace Rocket.SystemTests
 {
-    public class Tests : WebTest
+    using NUnit.Framework;
+    using OpenQA.Selenium;
+    using Rocket.SystemTests.Configuration;
+    using Shark.Web;
+    using Shark.Web.Components;
+
+    public class WebTests : WebTest
     {
         private string baseURL = "http://demos.bellatrix.solutions/";
 
         [Test]
         public void BrowserServiceShouldBeExposed()
         {
-            Navigation.GoTo(baseURL);
-            StringAssert.Contains("Bellatrix Demos", Browser.Title);
+            this.Navigation.GoTo(this.baseURL);
+            StringAssert.Contains("Bellatrix Demos", this.Browser.Title);
         }
 
         [Test]
         public void CanGetImageSourceUrl()
         {
             // act
-            Navigation.GoTo(baseURL);
+            this.Navigation.GoTo(this.baseURL);
             By imageLocator = By.XPath("//h2[text()='Proton Rocket']/preceding-sibling::img");
-            var protonRocket = Component.Create<Image>(imageLocator);
+            var protonRocket = this.Component.Create<Image>(imageLocator);
 
             // assert
             string expectedUrl =
@@ -35,9 +35,9 @@ namespace Rocket.SystemTests
         [Test]
         public void CanGetProtonRocketHref()
         {
-            Navigation.GoTo(baseURL);
+            this.Navigation.GoTo(this.baseURL);
             By locator = By.XPath("//h2[text()='Proton Rocket']/parent::a");
-            var protonRocket = Component.Create<Anchor>(locator);
+            var protonRocket = this.Component.Create<Anchor>(locator);
 
             string expectedHref = "http://demos.bellatrix.solutions/product/proton-rocket/";
             Assert.AreEqual(expectedHref, protonRocket.Href);
@@ -47,9 +47,9 @@ namespace Rocket.SystemTests
         public void CanGetImageSourceUrlByXpath()
         {
             // act
-            Navigation.GoTo(baseURL);
+            this.Navigation.GoTo(this.baseURL);
             string imageLocator = "//h2[text()='Proton Rocket']/preceding-sibling::img";
-            var protonRocket = Component.CreateByXpath<Image>(imageLocator);
+            var protonRocket = this.Component.CreateByXpath<Image>(imageLocator);
 
             // assert
             string expectedUrl =
@@ -61,9 +61,9 @@ namespace Rocket.SystemTests
         [Test]
         public void CanGetProtonRocketHrefByXpath()
         {
-            Navigation.GoTo(baseURL);
+            this.Navigation.GoTo(this.baseURL);
             var locator = "//h2[text()='Proton Rocket']/parent::a";
-            var protonRocket = Component.CreateByXpath<Anchor>(locator);
+            var protonRocket = this.Component.CreateByXpath<Anchor>(locator);
 
             string expectedHref = "http://demos.bellatrix.solutions/product/proton-rocket/";
             Assert.AreEqual(expectedHref, protonRocket.Href);
@@ -72,14 +72,14 @@ namespace Rocket.SystemTests
         [Test]
         public void CanGetCorrectTimeoutSettingFromJsonFile()
         {
-            var timeoutSetting = Configuration.GetTimeoutSettings();
+            var timeoutSetting = this.Configuration.GetTimeoutSettings();
             Assert.AreEqual(10, timeoutSetting.WaitForElementTimeout);
         }
 
         [Test]
         public void CanGetCorrectSiteUrlSettingFromJsonFile()
         {
-            var siteUrls = Configuration.GetSiteSettings();
+            var siteUrls = this.Configuration.GetSiteSettings();
             Assert.AreEqual(this.baseURL, siteUrls.DemoSite);
 #if QA
       Assert.AreEqual("https://stackoverflow.com/", siteUrls.GoogleSite);

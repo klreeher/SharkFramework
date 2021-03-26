@@ -7,18 +7,21 @@ using System.Threading.Tasks;
 
 namespace Shark.Web.Components
 {
-    public class Anchor : WebComponent
+    public class Button : WebComponent
     {
-        public Anchor()
+        public Button()
         {
         }
 
-        public Anchor(By sourceLocator, IWebElement sourceElement)
+        public Button(By sourceLocator, IWebElement sourceElement)
             : base(sourceLocator, sourceElement)
         {
         }
 
-        public string Href => SourceElement.GetAttribute("href");
+        public int Width => SourceElement.Size.Width;
+        public int Height => SourceElement.Size.Height;
+        public string Text => SourceElement.Text;
+
         public void Click() => SourceElement.Click();
     }
 }

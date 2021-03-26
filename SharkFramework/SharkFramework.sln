@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{969F5875
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A404B5C-8BE9-4BD1-B10A-E3C2E324E1AE}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		StyleCopeRules.ruleset = StyleCopeRules.ruleset
 	EndProjectSection
 EndProject

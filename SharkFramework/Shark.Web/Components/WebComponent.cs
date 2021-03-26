@@ -21,5 +21,6 @@ namespace Shark.Web.Components
 
         public By SourceLocator { get; set; }
         public IWebElement SourceElement { get; set; }
+        public bool IsVisible => SourceElement.Displayed;
     }
 }
