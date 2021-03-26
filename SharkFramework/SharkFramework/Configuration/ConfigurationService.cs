@@ -9,7 +9,7 @@
         private ConfigurationService()
         {
             var builder = new ConfigurationBuilder();
-            builder.AddJsonFile("FrameworkSettings.json", optional: false, reloadOnChange: true);
+            builder.AddJsonFile(GetConfigFile(), optional: false, reloadOnChange: true);
             Root = builder.Build();
         }
 
@@ -27,5 +27,18 @@
         }
 
         public IConfigurationRoot Root { get; }
+
+        private string GetConfigFile()
+        {
+#if DEV
+            return "FrameworkSettings.dev.json";
+#endif
+#if QA
+            return "FrameworkSettings.qa.json";
+#endif
+#if PROD
+            return "FrameworkSettings.prod.json";
+#endif
+        }
     }
 }

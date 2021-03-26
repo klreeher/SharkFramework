@@ -81,7 +81,12 @@ namespace Rocket.SystemTests
         {
             var siteUrls = Configuration.GetSiteSettings();
             Assert.AreEqual(this.baseURL, siteUrls.DemoSite);
+#if QA
+      Assert.AreEqual("https://stackoverflow.com/", siteUrls.GoogleSite);
+#endif
+#if DEV
             Assert.AreEqual("https://google.com/", siteUrls.GoogleSite);
+#endif
         }
     }
 }

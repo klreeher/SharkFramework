@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Shark</RootNamespace>
+    <Configurations>Debug;Release;Dev;QA;Prod</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

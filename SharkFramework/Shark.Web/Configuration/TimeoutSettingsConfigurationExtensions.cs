@@ -8,13 +8,8 @@ using System.Threading.Tasks;
 
 namespace Shark.Web
 {
-    public static class WebSettingsConfigurationExtensions
+    public static class TimeoutSettingsConfigurationExtensions
     {
-        public static WebSettings GetWebSettings(this ConfigurationService configurationService)
-        {
-            return configurationService.Root.GetSection("webSettings").Get<WebSettings>();
-        }
-
         public static TimeoutSettings GetTimeoutSettings(this ConfigurationService configurationService)
         {
             return configurationService.Root.GetSection("timeoutSettings").Get<TimeoutSettings>();

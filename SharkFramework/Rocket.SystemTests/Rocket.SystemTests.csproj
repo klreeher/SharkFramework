@@ -4,6 +4,8 @@
 		<TargetFramework>net5.0</TargetFramework>
 
 		<IsPackable>false</IsPackable>
+
+		<Configurations>Debug;Release;Dev;Prod</Configurations>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -29,6 +31,15 @@
 	<ItemGroup>
 		<None Update="Config/FrameworkSettings.$(Configuration).json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="FrameworkSettings.prod.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="FrameworkSettings.qa.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="FrameworkSettings.dev.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="FrameworkSettings.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>

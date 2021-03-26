@@ -1,9 +1,11 @@
 {
+  "webSettings": {
+  },
   "timeoutSettings": {
     "waitForElementTimeout": "10"
   },
   "siteSettings": {
     "DemoSite": "http://demos.bellatrix.solutions/",
-    "GoogleSite":  "https://google.com/" 
+    "GoogleSite": "https://stackoverflow.com/"
   } 
 }

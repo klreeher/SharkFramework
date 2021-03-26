@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Configurations>Debug;Release;Dev;QA;Prod</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

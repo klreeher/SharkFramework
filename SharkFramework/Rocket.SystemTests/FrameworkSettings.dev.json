@@ -1,4 +1,6 @@
 {
+  "webSettings": {
+  },
   "timeoutSettings": {
     "waitForElementTimeout": "10"
   },
