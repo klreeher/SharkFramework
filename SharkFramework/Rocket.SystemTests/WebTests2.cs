@@ -6,7 +6,7 @@ namespace Rocket.SystemTests
     using Shark.Web;
     using Shark.Web.Components;
 
-    public class WebTests : WebTest
+    public class WebTests2 : WebTest
     {
         private string baseURL = "http://demos.bellatrix.solutions/";
 
@@ -14,7 +14,6 @@ namespace Rocket.SystemTests
         public void BrowserServiceShouldBeExposed()
         {
             this.Navigation.GoTo(this.baseURL);
-            Assert.Fail("TESTING");
             StringAssert.Contains("Bellatrix Demos", this.Browser.Title);
         }
 

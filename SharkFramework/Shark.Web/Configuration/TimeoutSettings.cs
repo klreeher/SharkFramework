@@ -9,5 +9,7 @@ namespace Shark.Web
     public class TimeoutSettings
     {
         public int WaitForElementTimeout { get; init; }
+        public int PageLoadTimeout { get; init; }
+        public int JavascriptTimeout { get; init; }
     }
 }

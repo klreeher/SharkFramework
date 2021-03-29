@@ -8,7 +8,6 @@
 
 	<ItemGroup>
 		<Folder Include="FindStrategies\" />
-		<Folder Include="Helpers\" />
 		<Folder Include="Validations\" />
 		<Folder Include="WaitStrategies\" />
 	</ItemGroup>
@@ -39,6 +38,7 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="WebDriverManager" Version="2.11.1" />
 
 	</ItemGroup>
 

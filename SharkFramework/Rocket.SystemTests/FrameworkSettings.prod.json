@@ -1,11 +1,16 @@
 {
   "webSettings": {
+    "defaultBrowser": "firefox",
+    "defaultSaveLocation": "SharkFramework\\Screenshots",
+    "screenshotsOnFailure":  true 
   },
   "timeoutSettings": {
+    "pageLoadTimeout": "30",
+    "javascriptTimeout": "30",
     "waitForElementTimeout": "10"
   },
   "siteSettings": {
     "DemoSite": "http://demos.bellatrix.solutions/",
-    "GoogleSite":  "https://google.com/" 
-  } 
+    "GoogleSite": "https://google.com/"
+  }
 }

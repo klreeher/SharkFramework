@@ -1,8 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System;
+using ICSharpCode.SharpZipLib.Zip;
+using NUnit.Framework;
 using Shark.Configuration;
+using Shark.Web.Helpers;
 using Shark.Web.Infrastructure;
 using Shark.Web.Services;
-using System;
+using TestStatus = NUnit.Framework.Interfaces.TestStatus;
 
 namespace Shark.Web
 {
@@ -13,13 +16,27 @@ namespace Shark.Web
         public ComponentService Component => new ComponentService();
         public ConfigurationService Configuration => ConfigurationService.Instance;
 
-        [SetUp]
+        [OneTimeSetUp]
         public void Setup()
         {
-            DriverService.Start(BrowserType.Chrome);
+            DriverService.Quit();
+            DriverService.Start();
         }
 
         [TearDown]
+        public void TestTeardown()
+        {
+            if (TestContext.CurrentContext.Result.Outcome.Status != TestStatus.Passed)
+            {
+                ScreenshotEngine.SaveScreenshot();
+                DriverService.Quit();
+                DriverService.Start();
+            }
+
+            DriverService.ClearCookies();
+        }
+
+        [OneTimeTearDown]
         public void Teardown()
         {
             DriverService.Quit();
