@@ -27,10 +27,22 @@ namespace Rocket.SystemTests
         }
 
         [Test]
-        public void CanAddProductToCart()
+        [TestCase("Falcon Heavy")]
+        [TestCase("Proton Rocket")]
+        [TestCase("Saturn V")]
+        public void CanAddProductToCart(string productName)
+        {
+            this.mainPage.AddItemToCart(productName);
+            this.mainPage.Assertions.AssertViewCartIsVisible();
+        }
+
+        [Test]
+        public void VerifyProductsInCart()
         {
             this.mainPage.AddItemToCart("Falcon Heavy");
             this.mainPage.Assertions.AssertViewCartIsVisible();
+            
+         
         }
     }
 }

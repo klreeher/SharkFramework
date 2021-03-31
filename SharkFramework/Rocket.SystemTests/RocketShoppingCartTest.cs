@@ -1,3 +1,5 @@
+using Shark.Web.Services;
+
 namespace Rocket.SystemTests
 {
     using NUnit.Framework;
@@ -6,7 +8,7 @@ namespace Rocket.SystemTests
     using Shark.Web;
     using Shark.Web.Components;
 
-    public class WebTests : WebTest
+    public class RocketShoppingCartTest : RocketWebTest
     {
         private string baseURL = "http://demos.bellatrix.solutions/";
 
@@ -14,7 +16,6 @@ namespace Rocket.SystemTests
         public void BrowserServiceShouldBeExposed()
         {
             this.Navigation.GoTo(this.baseURL);
-            Assert.Fail("TESTING");
             StringAssert.Contains("Bellatrix Demos", this.Browser.Title);
         }
 
@@ -74,7 +75,7 @@ namespace Rocket.SystemTests
         public void CanGetCorrectTimeoutSettingFromJsonFile()
         {
             var timeoutSetting = this.Configuration.GetTimeoutSettings();
-            Assert.AreEqual(10, timeoutSetting.WaitForElementTimeout);
+            Assert.AreEqual(10, timeoutSetting.ElementToExistTimeout);
         }
 
         [Test]

@@ -9,9 +9,13 @@ namespace Shark.Web.Services
 {
     public class NavigationService
     {
+        public static event EventHandler<string> BeforeGoTo;
+        public static event EventHandler<string> AfterGoTo;
         public void GoTo(string url)
         {
+            BeforeGoTo?.Invoke(this, url);
             DriverService.WrappedDriver.Value.Navigate().GoToUrl(url);
+            AfterGoTo?.Invoke(this, url);
         }
     }
 }

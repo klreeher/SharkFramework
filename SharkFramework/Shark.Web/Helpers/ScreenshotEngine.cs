@@ -11,23 +11,31 @@ namespace Shark.Web.Helpers
     {
         public static void SaveScreenshot()
         {
-            if (!ConfigurationService.Instance.GetWebSettings().ScreenshotsOnFailure)
+            try
             {
-                return;
-            }
+                if (!ConfigurationService.Instance.GetWebSettings().ScreenshotsOnFailure)
+                {
+                    return;
+                }
 
-            var rootLocation = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            var saveLocation = Path.Combine(rootLocation, ConfigurationService.Instance.GetWebSettings().DefaultSaveLocation);
-            if (!Directory.Exists(saveLocation))
+                var rootLocation = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                var saveLocation = Path.Combine(rootLocation, ConfigurationService.Instance.GetWebSettings().DefaultSaveLocation);
+                if (!Directory.Exists(saveLocation))
+                {
+                    Directory.CreateDirectory(saveLocation);
+                }
+
+                string fileName = $"{TestContext.CurrentContext.Test.Name}_{DateTime.Now.ToString("yyyyMMddTHHmmss")}.png";
+                string absoluteFilePath = Path.Combine(saveLocation, fileName);
+                Screenshot image = ((ITakesScreenshot)DriverService.WrappedDriver.Value).GetScreenshot();
+                image.SaveAsFile(absoluteFilePath);
+                Logger.Error($"Saved Screenshot of Failure at {absoluteFilePath}");
+            }
+            catch (Exception e)
             {
-                Directory.CreateDirectory(saveLocation);
+                Logger.Error(e.ToString());
+                throw;
             }
-
-            string fileName = $"{TestContext.CurrentContext.Test.Name}_{DateTime.Now.ToString("yyyyMMddTHHmmss")}.png";
-            string absoluteFilePath = Path.Combine(saveLocation, fileName);
-            Screenshot image = ((ITakesScreenshot)DriverService.WrappedDriver.Value).GetScreenshot();
-            image.SaveAsFile(absoluteFilePath);
-            Logger.Error($"Saved Screenshot of Failure at {absoluteFilePath}");
         }
     }
 }

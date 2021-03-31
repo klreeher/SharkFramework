@@ -1,13 +1,22 @@
 {
   "webSettings": {
-    "defaultBrowser": "firefox",
+    "defaultBrowser": "Chrome",
     "defaultSaveLocation": "SharkFramework\\Screenshots",
-    "screenshotsOnFailure":  true 
+    "screenshotsOnFailure": true,
+    "bddLogging": true
   },
   "timeoutSettings": {
     "pageLoadTimeout": "30",
     "javascriptTimeout": "30",
-    "waitForElementTimeout": "10"
+    "waitForAjaxTimeout": "30",
+    "sleepInterval": "1",
+    "elementToBeVisibleTimeout": "30",
+    "elementToExistTimeout": "30",
+    "elementToNotExistTimeout": "30",
+    "elementToBeClickableTimeout": "30",
+    "elementNotToBeVisibleTimeout": "30",
+    "elementToHaveContentTimeout": "15",
+    "validationTimeout":  "15" 
   },
   "siteSettings": {
     "DemoSite": "http://demos.bellatrix.solutions/",

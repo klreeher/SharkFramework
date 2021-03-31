@@ -1,6 +1,7 @@
 ﻿using ICSharpCode.SharpZipLib.Zip;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.DevTools.V89.Network;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Safari;
@@ -17,11 +18,14 @@ namespace Shark.Web.Infrastructure
 {
     public class DriverService
     {
-        public static ThreadLocal<IWebDriver> WrappedDriver { get; set; }
+        public static ThreadLocal<IWebDriver> WrappedDriver { get; }
+        public static ThreadLocal<BrowserType> PreviousBrowserType { get; }
 
         static DriverService()
         {
             WrappedDriver = new ThreadLocal<IWebDriver>();
+            PreviousBrowserType = new ThreadLocal<BrowserType>();
+            PreviousBrowserType.Value = BrowserType.NotSet;
         }
 
         private static BrowserType ParseBrowserTypeFromString(string browserName)
@@ -83,6 +87,7 @@ namespace Shark.Web.Infrastructure
                         $"{nameof(browserType)} Not Supported");
             }
 
+            PreviousBrowserType.Value = browserType;
             WrappedDriver.Value = driver;
             driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(Configuration.ConfigurationService.Instance.GetTimeoutSettings().PageLoadTimeout);
             driver.Manage().Timeouts().AsynchronousJavaScript = TimeSpan.FromSeconds(Configuration.ConfigurationService.Instance.GetTimeoutSettings().JavascriptTimeout);

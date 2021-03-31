@@ -14,7 +14,7 @@ namespace Shark.Web.Components
         }
 
         public Search(By sourceLocator, IWebElement sourceElement)
-            : base(sourceLocator, sourceElement)
+            : base(sourceLocator)
         {
         }
 

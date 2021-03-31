@@ -32,21 +32,30 @@ namespace Shark.Web.Services
             return Create<TComponent>(By.ClassName(className));
         }
 
+        public TComponent CreateByClassContains<TComponent>(string id)
+            where TComponent : WebComponent
+        {
+            return CreateByXpath<TComponent>($"//*[contains(@id, '{id}')]");
+        }
+
+        public TComponent CreateByIdContains<TComponent>(string id)
+            where TComponent : WebComponent
+        {
+            return CreateByXpath<TComponent>($"//*[contains(@id, '{id}')]");
+        }
+
         public TComponent Create<TComponent>(By locator)
             where TComponent : WebComponent
         {
-            var webElement = WaitUntilElementExists(DriverService.WrappedDriver.Value, locator);
-
             TComponent newComponent = Activator.CreateInstance<TComponent>();
             newComponent.SourceLocator = locator;
-            newComponent.SourceElement = webElement;
 
             return newComponent;
         }
 
         private IWebElement WaitUntilElementExists(IWebDriver driver, By elementLocator)
         {
-            int elementTimeout = ConfigurationService.Instance.GetTimeoutSettings().WaitForElementTimeout;
+            int elementTimeout = ConfigurationService.Instance.GetTimeoutSettings().ElementToExistTimeout;
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(elementTimeout));
             IWebElement nativeWebElement = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(elementLocator));
             return nativeWebElement;

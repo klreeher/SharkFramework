@@ -11,5 +11,6 @@ namespace Shark.Web
         public string DefaultBrowser { get; init; }
         public string DefaultSaveLocation { get; init; }
         public bool ScreenshotsOnFailure { get; init; }
+        public bool BddLogging { get; init; }
     }
 }

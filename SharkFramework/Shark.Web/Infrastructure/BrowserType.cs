@@ -8,6 +8,7 @@ namespace Shark.Web.Infrastructure
 {
     public enum BrowserType
     {
+        NotSet,
         Chrome,
         Edge,
         Firefox,
